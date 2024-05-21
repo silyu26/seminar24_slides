@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Related works}{4}{0}{2}
-\beamer@sectionintoc {3}{LLM with data streams}{6}{0}{3}
-\beamer@subsectionintoc {3}{1}{Continual Learning}{6}{0}{3}
-\beamer@subsectionintoc {3}{2}{Prompt Engineering}{9}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{12}{0}{4}
-\beamer@sectionintoc {5}{References}{13}{0}{5}
+\beamer@sectionintoc {2}{Related works}{6}{0}{2}
+\beamer@sectionintoc {3}{LLM with data streams}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Continual Learning}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Prompt Engineering}{11}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{14}{0}{4}
+\beamer@sectionintoc {5}{References}{15}{0}{5}
