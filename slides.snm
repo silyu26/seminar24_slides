@@ -4,3 +4,13 @@
 \beamer@slide {fig:llm1}{5}
 \beamer@slide {fig:llm2}{15}
 \beamer@slide {fig:llm3}{16}
+\beamer@slide {fig:paris}{19}
+\beamer@slide {fig:trend}{20}
+\beamer@slide {fig:prompt1}{23}
+\beamer@slide {sub@fig:prompt1}{23}
+\beamer@slide {fig:prompt2}{23}
+\beamer@slide {sub@fig:prompt2}{23}
+\beamer@slide {fig:both_prompts}{23}
+\beamer@slide {fig:llmlight}{24}
+\beamer@slide {fig:acl_stages}{28}
+\beamer@slide {fig:progressive}{31}

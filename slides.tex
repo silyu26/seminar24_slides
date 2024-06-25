@@ -12,6 +12,7 @@
 %\setmainfont{Arial}
 %\setsansfont{Arial}
 \usepackage[scaled=.90]{helvet}
+\usepackage{subcaption}
 %\usepackage{helvet}
 % Also force Arial for math for a more consistent look
 %\usepackage{unicode-math}
@@ -489,17 +490,144 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
 \end{frame}
 
 \section{LLMs and data streams}
-\begin{frame}{Challenges}
-  Application Fields
+\begin{frame}{Application Fields: Traffic Data}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{paris_traffic.png}
+    \caption{A screenshot of traffic in Paris using Google Maps\footnote{\url{https://www.google.com/maps/}}}
+    \label{fig:paris}
+\end{figure}
 \end{frame}
+
+\begin{frame}{Application Fields: Social Media}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{trends.png}
+    \caption{Current Twitter trending topics in Germany \footnote{\url{https://trends24.in/germany/}}}
+    \label{fig:trend}
+\end{figure}
+\end{frame}
+
 
 %\subsection{Prompt Engineering}
 \begin{frame}{Prompt engineering}
-  Text goes here
+  \vspace{1cm}
+  \begin{definition}{A prompt}
+    is a set of instructions provided to an LLM that programs the LLM by customizing it and/or enhancing or refining its capabilities  
+  \end{definition}
+\end{frame}
+\begin{frame}{Prompt engineering}
+  \vspace{1cm}
+  \begin{definition}{A prompt}
+    is a set of instructions provided to an LLM that programs the LLM by customizing it and/or enhancing or refining its capabilities. \cite{LiuPengfei23}   
+  \end{definition}
+  \vspace{1cm}
+  \begin{definition}{Prompt Engineering}
+    is the means by which LLMs are programmed via prompts. \cite{LiuPengfei23}  
+  \end{definition}
+\end{frame}
+
+\begin{frame}{Prompt engineering}
+  \begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.42\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{prompt_ds_1.PNG}
+        \caption{Prompt 1}
+        \label{fig:prompt1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.42\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{prompt_ds_2.PNG}
+        \caption{Prompt 2}
+        \label{fig:prompt2}
+    \end{subfigure}
+    \caption{2 different prompts yield different output of ChatGPT}
+    \label{fig:both_prompts}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Use Case: LLMLight}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{LLMLight.PNG}
+    \caption{The workflow of LLMLight \cite{Lai23}}
+    \label{fig:llmlight}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Prompt Engineering}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Convert the data stream input into model-readable input and update the model’s knowledge via prompt engineering.
+    \item  However, this method heavily relies on the quality of the prompt formulated by users.
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Continual learning}
-  Text goes here
+  \vspace{1cm}
+  \begin{Definition}
+    continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLM models
+to learn from a continuous data stream over time. \cite{Biesi20}
+  \end{Definition}
+\end{frame}
+\begin{frame}{Continual learning}
+  \vspace{1cm}
+  \begin{Definition}
+    continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLM models
+to learn from a continuous data stream over time. \cite{Biesi20}
+  \end{Definition}
+  \vspace{1cm}
+  \begin{Definition}
+    For a data stream of tasks $\mathcal{T}= \{\mathcal{T}_1,\ldots,\mathcal{T}_n \}$, the goal is to
+have the model learn sequentially based on the input stream, where it only has access to $\mathcal{T}_i$ at time $i$. \cite{Wu24}
+  \end{Definition}
+\end{frame}
+
+\begin{frame}{Continual learning}
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{CL stages.png}
+    \caption{Stages of continual learning \cite{Wu24}}
+    \label{fig:acl_stages}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Continual learning}
+  \vspace{1cm}
+  However, during continual learning on new input streams, models are likely to forget
+  previously learned knowledge (Catastrophic Forgetting). \cite{Gupta23}
+\end{frame}
+
+\begin{frame}{Continual learning}
+  \vspace{1cm}
+  However, during continual learning on new input streams, models are likely to forget
+  previously learned knowledge (Catastrophic Forgetting). \cite{Gupta23}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Replay-Based methods
+    \item Regularization-Based methods
+    \item Architecture-Based Methods
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Use Case: Progressive Network}
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{progressive.png}
+    \caption{Illustration of progressive network and progressive prompt \cite{Razda23}}
+    \label{fig:progressive}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Continual Learning}
+  \begin{itemize}
+    \item Catastrophic forgetting.
+    \item Lack of real-world assumption.
+    \item Multi-modal continual learning.
+    \item concept drift.
+  \end{itemize}
 \end{frame}
 
 \section{Conclusion}
@@ -555,6 +683,35 @@ Geisler, Sandra. "Data stream management systems." In Dagstuhl Follow-Ups, vol. 
 
 \bibitem{Shi24}
 Shi, Haizhou, Zihao Xu, Hengyi Wang, Weiyi Qin, Wenyuan Wang, Yibin Wang, and Hao Wang. "Continual Learning of Large Language Models: A Comprehensive Survey." arXiv preprint arXiv:2404.16789 (2024).
+
+\bibitem{LiuPengfei23}
+Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. "Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing." ACM Computing Surveys 55, no. 9 (2023): 1-35.
+
+  \end{thebibliography}
+\end{frame}
+
+\begin{frame}
+  \begin{thebibliography}{}
+    \bibitem{Lai23}
+Lai, Siqi, Zhao Xu, Weijia Zhang, Hao Liu, and Hui Xiong. "Large language models as traffic signal control agents: Capacity and opportunity." arXiv preprint arXiv:2312.16044 (2023).
+
+\bibitem{Biesi20}
+Biesialska, Magdalena, Katarzyna Biesialska, and Marta R. Costa-Jussa. "Continual lifelong learning in natural language processing: A survey." arXiv preprint arXiv:2012.09823 (2020).
+
+\bibitem{Wu24}
+Wu, Tongtong, Linhao Luo, Yuan-Fang Li, Shirui Pan, Thuy-Trang Vu, and Gholamreza Haffari. "Continual learning for large language models: A survey." arXiv preprint arXiv:2402.01364 (2024).
+
+\bibitem{Gupta23}
+Gupta, Kshitij, Benjamin Thérien, Adam Ibrahim, Mats L. Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. "Continual Pre-Training of Large Language Models: How to (re) warm your model?." arXiv preprint arXiv:2308.04014 (2023).
+
+
+  \end{thebibliography}
+\end{frame}
+
+\begin{frame}
+  \begin{thebibliography}{}
+    \bibitem{Razda23}
+Razdaibiedina, Anastasia, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, and Amjad Almahairi. "Progressive prompts: Continual learning for language models." arXiv preprint arXiv:2301.12314 (2023).
 
   \end{thebibliography}
 \end{frame}
