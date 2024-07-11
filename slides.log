@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.16)  25 JUN 2024 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.16)  12 JUL 2024 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -655,30 +655,30 @@ LaTeX Warning: \include should only be used after \begin{document} on input line
 (./rwth-colors.tex)) (./beamerfontthemerwth.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 84.
+(hyperref)                removing `\translate ' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 84.
+(hyperref)                removing `\<def>-command' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\inst' on input line 84.
+(hyperref)                removing `\inst' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 84.
+(hyperref)                removing `\<def>-command' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\and' on input line 84.
+(hyperref)                removing `\and' on input line 85.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 84.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 85.
 (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 84.
+(Font)              scaled to size 9.85492pt on input line 85.
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count351
@@ -694,29 +694,29 @@ LaTeX Warning: Label `fig:llm1' multiply defined.
 LaTeX Warning: Label `fig:llm1' multiply defined.
 
 
-LaTeX Warning: Label `Gupta23' multiply defined.
+LaTeX Warning: Label `table:comparison' multiply defined.
 
 )
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -771,7 +771,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 85.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -781,55 +781,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count358
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
  (./slides.out) (./slides.out)
 \@outlinefile=\write5
 \openout5 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 84.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 85.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 84.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 84.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 84.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 84.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 84.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 84.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 84.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 84.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 85.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 85.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 84.
+(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 85.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 84.
+(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 84.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/b/n --> OT1/phv/b/n on input line 84.
+(Font)                  OT1/phv/b/n --> OT1/phv/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 84.
+(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 84.
+(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 85.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 84.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 85.
  (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -846,31 +846,31 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 17.99988pt on input line 84.
+(Font)              scaled to size 17.99988pt on input line 85.
  (./slides.nav)
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 84.
+(Font)              scaled to size 5.39996pt on input line 85.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 84.
+(Font)              scaled to size 8.09995pt on input line 85.
 <rwth_i5_en_rgb.pdf, id=38, 366.5093pt x 91.05017pt>
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 84.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 85.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 17.99988pt on input line 84.
+(Font)              scaled to size 17.99988pt on input line 85.
 <title_small.jpg, id=39, 722.7pt x 182.1204pt>
 File: title_small.jpg Graphic file (type jpg)
 <use title_small.jpg>
-Package pdftex.def Info: title_small.jpg  used on input line 87.
+Package pdftex.def Info: title_small.jpg  used on input line 88.
 (pdftex.def)             Requested size: 722.69981pt x 182.12273pt.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 28.7998pt on input line 87.
+(Font)              scaled to size 28.7998pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 17.99988pt on input line 87.
+(Font)              scaled to size 17.99988pt on input line 88.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 87.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 88.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [1
 
@@ -878,140 +878,164 @@ Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 87.
 <llm1.png, id=50, 379.91937pt x 357.335pt>
 File: llm1.png Graphic file (type png)
 <use llm1.png>
-Package pdftex.def Info: llm1.png  used on input line 110.
+Package pdftex.def Info: llm1.png  used on input line 111.
 (pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 110.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
+(Font)              scaled to size 8.99994pt on input line 111.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 110.
+(Font)              scaled to size 6.29996pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 110.
+(Font)              scaled to size 4.49997pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 110.
+(Font)              scaled to size 8.99994pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 6.29996pt on input line 110.
+(Font)              scaled to size 6.29996pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 4.49997pt on input line 110.
+(Font)              scaled to size 4.49997pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 110.
+(Font)              scaled to size 8.09995pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 5.39996pt on input line 110.
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 110.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 110.
+(Font)              scaled to size 5.39996pt on input line 111.
 
+Overfull \hbox (45.98035pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/9 chatgpt-[]and-[]large-[]language-[]models-[]the-[]holy-[]grail-[]of-[]enterprise-[]ai/$[][]|  
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 16.19989pt on input line 111.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 111.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 110.
+(Font)              size <17.28> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 110.
+(Font)              size <12> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 110.
+(Font)              size <17.28> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.59995> not available
-(Font)              size <12> substituted on input line 110.
+(Font)              size <12> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 110.
+(Font)              size <17.28> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 110.
+(Font)              size <12> substituted on input line 111.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.33986pt on input line 110.
+(Font)              scaled to size 11.33986pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <18> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 16.19989pt on input line 110.
+(Font)              scaled to size 16.19989pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12.59995> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 11.33986pt on input line 110.
+(Font)              scaled to size 11.33986pt on input line 111.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 3.59998pt on input line 110.
+(Font)              scaled to size 3.59998pt on input line 111.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 110.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 111.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 [2
 
  <./llm1.png>]
-File: llm1.png Graphic file (type png)
-<use llm1.png>
-Package pdftex.def Info: llm1.png  used on input line 129.
-(pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:llm1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.129 \end{frame}
-                 
+<1M users.png, id=67, 563.60562pt x 328.22626pt>
+File: 1M users.png Graphic file (type png)
+<use 1M users.png>
+Package pdftex.def Info: 1M users.png  used on input line 119.
+(pdftex.def)             Requested size: 474.02072pt x 276.05875pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 129.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 119.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [3
 
-]
+ <./1M users.png>]
 File: llm1.png Graphic file (type png)
 <use llm1.png>
-Package pdftex.def Info: llm1.png  used on input line 149.
+Package pdftex.def Info: llm1.png  used on input line 138.
 (pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
+
+Overfull \hbox (45.98035pt too wide) in paragraph at lines 138--138
+\OT1/cmtt/m/n/9 chatgpt-[]and-[]large-[]language-[]models-[]the-[]holy-[]grail-[]of-[]enterprise-[]ai/$[][]|  
+ []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:llm1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 \end{frame}
+l.138 \end{frame}
                  
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 149.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 138.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [4
 
 ]
 File: llm1.png Graphic file (type png)
 <use llm1.png>
-Package pdftex.def Info: llm1.png  used on input line 170.
+Package pdftex.def Info: llm1.png  used on input line 158.
 (pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
+
+Overfull \hbox (45.98035pt too wide) in paragraph at lines 158--158
+\OT1/cmtt/m/n/9 chatgpt-[]and-[]large-[]language-[]models-[]the-[]holy-[]grail-[]of-[]enterprise-[]ai/$[][]|  
+ []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:llm1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 \end{frame}
+l.158 \end{frame}
                  
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 170.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 158.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [5
 
 ]
+File: llm1.png Graphic file (type png)
+<use llm1.png>
+Package pdftex.def Info: llm1.png  used on input line 179.
+(pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
+
+Overfull \hbox (45.98035pt too wide) in paragraph at lines 179--179
+\OT1/cmtt/m/n/9 chatgpt-[]and-[]large-[]language-[]models-[]the-[]holy-[]grail-[]of-[]enterprise-[]ai/$[][]|  
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:llm1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \end{frame}
+                 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
 Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 179.
@@ -1021,323 +1045,459 @@ Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 179.
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 228.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 192.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [7
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 277.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 242.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [8
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 327.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 291.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [9
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 376.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 341.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [10
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 425.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 390.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [11
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 435.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 439.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [12
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 444.
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 451.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+ [13
+
+]
+LaTeX Font Info:    Calculating math sizes for size <20> on input line 460.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 444.
+(Font)              size <20.74> substituted on input line 460.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 444.
+(Font)              size <14.4> substituted on input line 460.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
-(Font)              size <20.74> substituted on input line 444.
+(Font)              size <20.74> substituted on input line 460.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 444.
+(Font)              size <14.4> substituted on input line 460.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 444.
+(Font)              size <20.74> substituted on input line 460.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 444.
+(Font)              size <14.4> substituted on input line 460.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 12.59985pt on input line 444.
+(Font)              scaled to size 12.59985pt on input line 460.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <20> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 444.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 460.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 17.99988pt on input line 444.
+(Font)              scaled to size 17.99988pt on input line 460.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <13.99994> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 444.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 460.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 12.59985pt on input line 444.
+(Font)              scaled to size 12.59985pt on input line 460.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 444.
-(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
-[13
-
-]
-LaTeX Font Info:    Trying to load font information for OMS+phv on input line 452.
- (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omsphv.fd
-File: omsphv.fd 
-)
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <20> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 452.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 452.
-
-File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
-<use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 452.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 460.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 [14
 
 ]
-<BERT Finetuning.png, id=175, 754.82pt x 305.64188pt>
+LaTeX Font Info:    Trying to load font information for OMS+phv on input line 468.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <20> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 468.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 468.
+
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 468.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+[15
+
+]
+<BERT Finetuning.png, id=194, 754.82pt x 305.64188pt>
 File: BERT Finetuning.png Graphic file (type png)
 <use BERT Finetuning.png>
-Package pdftex.def Info: BERT Finetuning.png  used on input line 461.
+Package pdftex.def Info: BERT Finetuning.png  used on input line 477.
 (pdftex.def)             Requested size: 677.17543pt x 274.20302pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 461.
-(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
- [15
-
- <./BERT Finetuning.png>]
-<comparison.png, id=187, 452.18938pt x 163.10938pt>
-File: comparison.png Graphic file (type png)
-<use comparison.png>
-Package pdftex.def Info: comparison.png  used on input line 470.
-(pdftex.def)             Requested size: 677.17543pt x 244.26273pt.
-File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
-<use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 470.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 477.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [16
 
- <./comparison.png>]
+ <./BERT Finetuning.png>]
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 504.
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+[]\OT1/phv/m/n/10 Wikipedia(en)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+\OT1/phv/m/n/10 & Book-Cor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+[]\OT1/phv/m/n/10 Various
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+\OT1/phv/m/n/10 open-source
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+[]\OT1/phv/m/n/10 Text gen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+\OT1/phv/m/n/10 er-a-tion &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+[]\OT1/phv/m/n/10 Text gen-er-a-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 504--504
+\OT1/phv/m/n/10 tion & QA &
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 504--504
+[]\OT1/phv/m/n/10 Content gen-
+ []
+
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 480.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 504.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
- [17
+[17
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+[]\OT1/phv/m/n/10 Wikipedia(en)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+\OT1/phv/m/n/10 & Book-Cor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+[]\OT1/phv/m/n/10 Various
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+\OT1/phv/m/n/10 open-source
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+[]\OT1/phv/m/n/10 Text gen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+\OT1/phv/m/n/10 er-a-tion &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+[]\OT1/phv/m/n/10 Text gen-er-a-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 536--536
+\OT1/phv/m/n/10 tion & QA &
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 536--536
+[]\OT1/phv/m/n/10 Content gen-
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{table:comparison}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.536 \end{frame}
+                 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 490.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 536.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [18
 
 ]
-<paris_traffic.png, id=216, 705.13437pt x 449.17813pt>
-File: paris_traffic.png Graphic file (type png)
-<use paris_traffic.png>
-Package pdftex.def Info: paris_traffic.png  used on input line 500.
-(pdftex.def)             Requested size: 406.30939pt x 258.82373pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 500.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 546.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [19
 
+]
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 559.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+ [20
+
+]
+<paris_traffic.png, id=245, 705.13437pt x 449.17813pt>
+File: paris_traffic.png Graphic file (type png)
+<use paris_traffic.png>
+Package pdftex.def Info: paris_traffic.png  used on input line 569.
+(pdftex.def)             Requested size: 406.30939pt x 258.82373pt.
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 569.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+ [21
+
  <./paris_traffic.png>]
-<trends.png, id=229, 886.81313pt x 457.71pt>
+<trends.png, id=256, 886.81313pt x 457.71pt>
 File: trends.png Graphic file (type png)
 <use trends.png>
-Package pdftex.def Info: trends.png  used on input line 509.
+Package pdftex.def Info: trends.png  used on input line 578.
 (pdftex.def)             Requested size: 474.02072pt x 244.65942pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 509.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 578.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
- [20
+ [22
 
  <./trends.png>]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 518.
-(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
- [21
-
-]
-File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
-<use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 528.
-(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
- [22
-
-]
-<prompt_ds_1.PNG, id=257, 638.76141pt x 519.44063pt>
-File: prompt_ds_1.PNG Graphic file (type png)
-<use prompt_ds_1.PNG>
-Package pdftex.def Info: prompt_ds_1.PNG  used on input line 549.
-(pdftex.def)             Requested size: 284.41243pt x 231.28113pt.
-<prompt_ds_2.PNG, id=258, 649.30078pt x 514.92375pt>
-File: prompt_ds_2.PNG Graphic file (type png)
-<use prompt_ds_2.PNG>
-Package pdftex.def Info: prompt_ds_2.PNG  used on input line 549.
-(pdftex.def)             Requested size: 284.41243pt x 225.55357pt.
-File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
-<use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 549.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 584.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [23
 
- <./prompt_ds_1.PNG> <./prompt_ds_2.PNG>]
-<LLMLight.PNG, id=273, 590.205pt x 348.17578pt>
-File: LLMLight.PNG Graphic file (type png)
-<use LLMLight.PNG>
-Package pdftex.def Info: LLMLight.PNG  used on input line 558.
-(pdftex.def)             Requested size: 474.02072pt x 279.64072pt.
+]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 558.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 592.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [24
 
- <./LLMLight.PNG>]
+]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 566.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 602.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [25
 
 ]
+<prompt_ds_1.PNG, id=293, 638.76141pt x 519.44063pt>
+File: prompt_ds_1.PNG Graphic file (type png)
+<use prompt_ds_1.PNG>
+Package pdftex.def Info: prompt_ds_1.PNG  used on input line 623.
+(pdftex.def)             Requested size: 284.41243pt x 231.28113pt.
+<prompt_ds_2.PNG, id=294, 649.30078pt x 514.92375pt>
+File: prompt_ds_2.PNG Graphic file (type png)
+<use prompt_ds_2.PNG>
+Package pdftex.def Info: prompt_ds_2.PNG  used on input line 623.
+(pdftex.def)             Requested size: 284.41243pt x 225.55357pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 574.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 623.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [26
 
-]
+ <./prompt_ds_1.PNG> <./prompt_ds_2.PNG>]
+<LLMLight.PNG, id=309, 590.205pt x 348.17578pt>
+File: LLMLight.PNG Graphic file (type png)
+<use LLMLight.PNG>
+Package pdftex.def Info: LLMLight.PNG  used on input line 632.
+(pdftex.def)             Requested size: 474.02072pt x 279.64072pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 586.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 632.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [27
 
-]
-<CL stages.png, id=313, 790.45313pt x 285.065pt>
-File: CL stages.png Graphic file (type png)
-<use CL stages.png>
-Package pdftex.def Info: CL stages.png  used on input line 595.
-(pdftex.def)             Requested size: 643.31459pt x 232.00186pt.
+ <./LLMLight.PNG>]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 595.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 640.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [28
 
- <./CL stages.png>]
+]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 601.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 648.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [29
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 613.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 660.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [30
 
 ]
-<progressive.png, id=340, 623.32875pt x 289.08pt>
-File: progressive.png Graphic file (type png)
-<use progressive.png>
-Package pdftex.def Info: progressive.png  used on input line 622.
-(pdftex.def)             Requested size: 609.45375pt x 282.64804pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 16.19989pt on input line 671.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 622.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 671.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [31
 
- <./progressive.png>]
+]
+<CL stages.png, id=356, 790.45313pt x 285.065pt>
+File: CL stages.png Graphic file (type png)
+<use CL stages.png>
+Package pdftex.def Info: CL stages.png  used on input line 681.
+(pdftex.def)             Requested size: 643.31459pt x 232.00186pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 631.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 681.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [32
 
-]
+ <./CL stages.png>]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 636.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 687.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [33
 
 ]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 655.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 699.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [34
 
- <c:/texlive/2022/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+]
+<progressive.png, id=383, 623.32875pt x 289.08pt>
+File: progressive.png Graphic file (type png)
+<use progressive.png>
+Package pdftex.def Info: progressive.png  used on input line 708.
+(pdftex.def)             Requested size: 609.45375pt x 282.64804pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 671.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 708.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [35
 
-]
+ <./progressive.png>]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 691.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 721.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [36
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{beamerbibGupta23}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.709 \end{frame}
-                 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 709.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 740.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [37
 
 ]
+Underfull \vbox (badness 10000) detected at line 801
+ []
+
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 717.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
- [38
+[38
+
+ <c:/texlive/2022/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+Underfull \vbox (badness 10000) detected at line 801
+ []
+
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+[39
+
+
+]
+Underfull \vbox (badness 10000) detected at line 801
+ []
+
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+[40
+
+
+]
+Underfull \vbox (badness 10000) detected at line 801
+ []
+
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+[41
+
+
+]
+Underfull \vbox (badness 10000) detected at line 801
+ []
+
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+[42
+
 
 ]
 \tf@nav=\write6
@@ -1358,21 +1518,21 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: 1285FC5EE55800C08D80E4A1FD8ADA8A;775.
+(rerunfilecheck)             Checksum: C9025AE7AB9E26B4A484E38FBB9DA814;775.
  ) 
 Here is how much of TeX's memory you used:
- 28334 strings out of 478268
- 563799 string characters out of 5850345
- 824527 words of memory out of 5000000
- 45844 multiletter control sequences out of 15000+600000
- 512615 words of font info for 115 fonts, out of 8000000 for 9000
+ 28361 strings out of 478268
+ 564096 string characters out of 5850345
+ 835629 words of memory out of 5000000
+ 45859 multiletter control sequences out of 15000+600000
+ 515881 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,23n,122p,486b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,23n,122p,486b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slides.pdf (38 pages, 2816699 bytes).
+Output written on slides.pdf (42 pages, 2867027 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 113 named destinations out of 1000 (max. 500000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 123 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

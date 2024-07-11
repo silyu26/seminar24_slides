@@ -1485,6 +1485,7 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
@@ -1512,6 +1513,19 @@ INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT ./1M users.png
+INPUT ./1M users.png
+INPUT 1M users.png
+INPUT ./1M users.png
+INPUT ./1M users.png
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
 INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
@@ -1612,11 +1626,13 @@ INPUT ./rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
-INPUT ./comparison.png
-INPUT ./comparison.png
-INPUT comparison.png
-INPUT ./comparison.png
-INPUT ./comparison.png
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT rwth_i5_en_rgb.pdf
@@ -1634,20 +1650,19 @@ INPUT ./paris_traffic.png
 INPUT paris_traffic.png
 INPUT ./paris_traffic.png
 INPUT ./paris_traffic.png
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
-INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
-INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT ./trends.png
 INPUT ./trends.png
 INPUT trends.png
 INPUT ./trends.png
 INPUT ./trends.png
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT rwth_i5_en_rgb.pdf
@@ -1695,6 +1710,13 @@ INPUT ./rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
 INPUT rwth_i5_en_rgb.pdf
 INPUT ./rwth_i5_en_rgb.pdf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT rwth_i5_en_rgb.pdf
+INPUT ./rwth_i5_en_rgb.pdf
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT ./CL stages.png
 INPUT ./CL stages.png
 INPUT CL stages.png

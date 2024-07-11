@@ -57,6 +57,7 @@
 % Set the logo to the file `logo`
 % It will be scaled automatically
 \logo{\includegraphics[scale=0.6]{rwth_i5_en_rgb.pdf}}
+%\logo{\includegraphics[scale=0.2]{logo_new.png}}
 
 % Uncomment this if you want a TOC at every section start
 %\AtBeginSection[]{
@@ -97,16 +98,24 @@
         \begin{figure}
             \centering
             \includegraphics[width=\textwidth]{llm1.png}
-            \caption{relevant concepts\footnote{Source: url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
+            \caption{Relevant concepts of AI models and technologies\footnote{Source: \url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
             \label{fig:llm1}
         \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
         \begin{itemize}
-            \item LLM and AI have become very hot topics in recent years.
+            \item LLM and AI have become very prominent topics in recent years.
         \end{itemize}
     \end{column}
 \end{columns}
+\end{frame}
+
+\begin{frame}{Background}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{1M users.png}
+  \caption{Time needed for different Apps to have 1 million users\footnote{Source: \url{https://explodingtopics.com/blog/chatgpt-users}}}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Background}
@@ -115,13 +124,13 @@
         \begin{figure}
             \centering
             \includegraphics[width=\textwidth]{llm1.png}
-            \caption{relevant concepts\footnote{Source: url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
+            \caption{Relevant concepts of AI models and technologies\footnote{Source: \url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
             \label{fig:llm1}
         \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
         \begin{itemize}
-            \item LLM and AI have become very hot topics in recent years.
+            \item LLM and AI have become very prominent topics in recent years.
             \item Various models have shown their wide usage and significant competence in many fields.
         \end{itemize}
     \end{column}
@@ -134,15 +143,15 @@
         \begin{figure}
             \centering
             \includegraphics[width=\textwidth]{llm1.png}
-            \caption{relevant concepts\footnote{Source: url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
+            \caption{Relevant concepts of AI models and technologies\footnote{Source: \url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
             \label{fig:llm1}
         \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
         \begin{itemize}
-            \item LLM and AI have become very hot topics in recent years.
+            \item LLM and AI have become very prominent topics in recent years.
             \item Various models have shown their wide usage and significant competence in many fields.
-            \item QA, content generation, translation, text classification etc \cite{Liu23}.
+            \item QA, content generation, translation, text classification and other tasks \cite{Liu23}.
         \end{itemize}
     \end{column}
 \end{columns}
@@ -154,27 +163,31 @@
         \begin{figure}
             \centering
             \includegraphics[width=\textwidth]{llm1.png}
-            \caption{relevant concepts\footnote{Source: url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
+            \caption{Relevant concepts of AI models and technologies\footnote{Source: \url{https://www.cortical.io/blog/chatgpt-and-large-language-models-the-holy-grail-of-enterprise-ai/}}}
             \label{fig:llm1}
         \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
         \begin{itemize}
-            \item LLM and AI have become very hot topics in recent years.
+            \item LLM and AI have become very prominent topics in recent years.
             \item Various models have shown their wide usage and significant competence in many fields.
-            \item QA, content generation, translation, text classification etc \cite{Liu23}.
+            \item QA, content generation, translation, text classification and other tasks \cite{Liu23}.
             \item Most models are "static" \cite{Gupta23}.
         \end{itemize}
     \end{column}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Content of the presentation}
+\begin{frame}{Content}
+  \vspace{1cm}
   \begin{itemize}
-    \item The evolution of language models and the techniques behind them.
-    \item The training process of several LLM models.
-    \item The definition and application of data streams.
-    \item The need, benefits, challenges and use cases of combining LLM with data streams.
+    \item Evolution of language models and the techniques behind them
+    \newline
+    \item Training process of several LLM models
+    \newline
+    \item Definition and application of data streams
+    \newline
+    \item Need, benefits, challenges and use cases of combining LLM with data streams
   \end{itemize}
 \end{frame}
 %------------------------------------------------------------------------------------------------------------
@@ -221,6 +234,7 @@
 \vspace{1cm}
 \begin{itemize}
   \item N-Gram \cite{Cavnar94}
+  \item Example: [("I", "read"), ("read", "a"), ("a", "book")]
   \item Completely statistical.
   \item Calculate the next word's probability based on the N previous sub-words.
   \item Poor performance on large documents.
@@ -262,7 +276,7 @@
     
     % Event labels
     \node[label, above=of event1] {Statistical Models};
-    \node[label, above=of event2] {Word Embedding};
+    \node[label, above=of event2] {Shallow Neural Networks};
     %\node[label, above=of event3] {Neural Networks};
     %\node[label, above=of event4] {LSTM};
     %\node[label, above=of event5] {Transformers};
@@ -311,8 +325,8 @@
     
     % Event labels
     \node[label, above=of event1] {Statistical Models};
-    \node[label, above=of event2] {Word Embedding};
-    \node[label, above=of event3] {Neural Networks};
+    \node[label, above=of event2] {Shallow Neural Networks};
+    \node[label, above=of event3] {Recurrent Neural Networks};
     %\node[label, above=of event4] {LSTM};
     %\node[label, above=of event5] {Transformers};
 \end{tikzpicture}
@@ -321,7 +335,7 @@
   \item Seq2Seq \cite{Sutskever14}
   \item Works with Long Short-Term Memory(LSTM).
   \item Encodes input into vectors with fixed dimensionality and decodes them.
-  \item Much Better performance on large documents, can work with different input lengths.
+  \item Much better performance on large documents, can work with different input lengths.
   \item But still vanishing gradient problems on very large documents.
 \end{itemize}
 \end{frame}
@@ -361,8 +375,8 @@
     
     % Event labels
     \node[label, above=of event1] {Statistical Models};
-    \node[label, above=of event2] {Word Embedding};
-    \node[label, above=of event3] {Neural Networks};
+    \node[label, above=of event2] {Shallow Neural Networks};
+    \node[label, above=of event3] {Recurrent Neural Networks};
     %\node[label, above=of event4] {LSTM};
     \node[label, above=of event4] {Transformers};
 \end{tikzpicture}
@@ -410,8 +424,8 @@
     
     % Event labels
     \node[label, above=of event1] {Statistical Models};
-    \node[label, above=of event2] {Word Embedding};
-    \node[label, above=of event3] {Neural Networks};
+    \node[label, above=of event2] {Shallow Neural Networks};
+    \node[label, above=of event3] {Recurrent Neural Networks};
     \node[label, above=of event4] {Transformers};
     \node[label, above=of event5] {Recent Models};
 \end{tikzpicture}
@@ -424,11 +438,13 @@
 \end{itemize}
 \end{frame}
 
-\section{Training process of LLMs}
+\section{Training Process of LLMs}
 \begin{frame}{Tokenization}
   \begin{itemize}
     \item Purpose: Segmenting input text into tokens.
+    \newline
     \item WordPiece (BERT) \cite{Wu16}
+    \newline
     \item Byte Pair Encoding (GPT2, LLaMA) \cite{Sennrich15}
     %\item Sentence Piece (LLaMA)
   \end{itemize}
@@ -443,11 +459,11 @@ predict the next token $u_i$ for a sequence $\{u_{i-k},...,u_{i-1}\}$, specifica
 $k$ refers to the context window size and $\Theta$ is the parameter of the neural network with which the conditional probability $P$ is modeled.
 \end{frame}
 
-\begin{frame}{Fine-tuing}
+\begin{frame}{Fine-tuning}
   Given a labeled dataset $C$,
   where each instance of $C$ has a sequence of tokens \{$c^1,...,c^m$\} and a label $y$, the goal of the fine-tuning phase is to maximize the following likelihood:
   \begin{equation}
-    L_2(U) = \sum_{(x,y)}\log{P(y|x^1,...,x^m)} \cite{Radford18}
+    L_2(U) = \sum_{(c,y)}\log{P(y|c^1,...,c^m)} \cite{Radford18}
   \end{equation}
 \end{frame}
 
@@ -460,16 +476,66 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
 \end{figure}
 \end{frame}
 
-\begin{frame}{A comparison of different models}
-  \begin{figure}
+\begin{frame}{A Comparison of Different Models}
+  %\vspace{1cm}
+  \begin{table}[H]
     \centering
-    \includegraphics[width=\textwidth]{comparison.png}
-    \caption{A comparison of different LLM models}
-    \label{fig:llm3}
-\end{figure}
+    \small
+    \begin{tabular}{| p{4cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
+    \textbf{Model Name} & BERT & GPT-2 & LLaMA & GPT-3,5/ 4 \\
+    \hline
+    \textbf{Developer} & GoogleAI & OpenAI & MetaAI & OpenAI \\
+    \hline
+    \textbf{Release Date} & 2018 & 2019 & 2023 & 2022/2023 \\
+    \hline
+    \textbf{Nr. of Parameters} & 110 M/ 340 M & 1,5 B & 7-65 B & 175 B/1,7 T \\
+    \hline
+    \textbf{Training Data} & Wikipedia(en) \& BookCorpus\footnote{\url{https://en.wikipedia.org/wiki/BookCorpus}} & WebText & Various open-source datasets & WebText \\
+    \hline
+    \textbf{Open-sourced} & Yes & No & Yes & No \\
+    \hline
+    \textbf{Major Applications} & QA & Text generation \& Translation & Text generation \& QA \& Translation & Content generation \& QA \& Translation \\
+    \hline
+    \end{tabular}
+    \caption{Comparison of Large Language Models}
+    \label{table:comparison}
+  \end{table}
 \end{frame}
 
-\section{LLM with data streams}
+\begin{frame}{A Comparison of Different Models}
+  %\vspace{1cm}
+  \begin{table}[H]
+    \centering
+    \small
+    \begin{tabular}{| p{4cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
+    \textbf{Model Name} & BERT & GPT-2 & LLaMA & GPT-3,5/ 4 \\
+    \hline
+    \textbf{Developer} & GoogleAI & OpenAI & MetaAI & OpenAI \\
+    \hline
+    \textbf{Release Date} & 2018 & 2019 & 2023 & 2022/2023 \\
+    \hline
+    \textbf{Nr. of Parameters} & 110 M/ 340 M & 1,5 B & 7-65 B & 175 B/1,7 T \\
+    \hline
+    \textbf{Training Data} & Wikipedia(en) \& BookCorpus\footnote{\url{https://en.wikipedia.org/wiki/BookCorpus}} & WebText & Various open-source datasets & WebText \\
+    \hline
+    \textbf{Open-sourced} & Yes & No & Yes & No \\
+    \hline
+    \textbf{Major Applications} & QA & Text generation \& Translation & Text generation \& QA \& Translation & Content generation \& QA \& Translation \\
+    \hline
+    \end{tabular}
+    \caption{Comparison of Large Language Models}
+    \label{table:comparison}
+  \end{table}
+  \begin{definition}{Smooth Power Laws:}
+    Performance has a power-law relationship with each of the three scale factors: the number of model
+    parameters N, the size of dataset D and the amount of computing C when not bottlenecked by the other two,
+     with trends spanning more than six orders of magnitude \cite{Kaplan20}.
+  \end{definition}
+\end{frame}
+
+\section{LLM with Data Streams}
 %\subsection{Continual Learning}
 \begin{frame}{Data Stream}
   \vspace{1cm}
@@ -479,22 +545,25 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
   \end{definition}
 \end{frame}
 
-\begin{frame}{Limitation of pre-trained LLMs}
+\begin{frame}{Limitation of Pre-trained LLMs}
   \vspace{1cm}
   \begin{itemize}
     \item Lack of knowledge beyond the scope of their training datasets.
+    \newline
     \item The performance is likely to gradually degrade over time \cite{Shi24}.
+    \newline
     \item Extremely computationally expensive to be re-trained.
+    \newline
     \item Not able to process data streams as input.
   \end{itemize}
 \end{frame}
 
-\section{LLMs and data streams}
+\section{LLMs and Data Streams}
 \begin{frame}{Application Fields: Traffic Data}
   \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{paris_traffic.png}
-    \caption{A screenshot of traffic in Paris using Google Maps\footnote{\url{https://www.google.com/maps/}}}
+    \caption{A screenshot of traffic in Paris using Google Maps\footnote{Source: \url{https://www.google.com/maps/}}}
     \label{fig:paris}
 \end{figure}
 \end{frame}
@@ -503,20 +572,25 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
   \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{trends.png}
-    \caption{Current Twitter trending topics in Germany \footnote{\url{https://trends24.in/germany/}}}
+    \caption{Current Twitter trending topics in Germany \footnote{Source: \url{https://trends24.in/germany/}}}
     \label{fig:trend}
 \end{figure}
 \end{frame}
 
+\begin{frame}{Solutions}
+  \vspace{5cm}
+  \centering
+  Prompt Engineering and Continual Learning
+\end{frame}
 
 %\subsection{Prompt Engineering}
-\begin{frame}{Prompt engineering}
+\begin{frame}{Prompt Engineering}
   \vspace{1cm}
   \begin{definition}{A prompt}
     is a set of instructions provided to an LLM that programs the LLM by customizing it and/or enhancing or refining its capabilities  
   \end{definition}
 \end{frame}
-\begin{frame}{Prompt engineering}
+\begin{frame}{Prompt Engineering}
   \vspace{1cm}
   \begin{definition}{A prompt}
     is a set of instructions provided to an LLM that programs the LLM by customizing it and/or enhancing or refining its capabilities. \cite{LiuPengfei23}   
@@ -527,7 +601,7 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
   \end{definition}
 \end{frame}
 
-\begin{frame}{Prompt engineering}
+\begin{frame}{Prompt Engineering}
   \begin{figure}[htbp]
     \centering
     \begin{subfigure}[b]{0.42\textwidth}
@@ -561,18 +635,18 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
   \vspace{1cm}
   \begin{itemize}
     \item Convert the data stream input into model-readable input and update the model’s knowledge via prompt engineering.
-    \item  However, this method heavily relies on the quality of the prompt formulated by users.
+    \item However, this method heavily relies on the quality of the prompt formulated by users.
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Continual learning}
+\begin{frame}{Continual Learning}
   \vspace{1cm}
   \begin{Definition}
     continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLM models
 to learn from a continuous data stream over time. \cite{Biesi20}
   \end{Definition}
 \end{frame}
-\begin{frame}{Continual learning}
+\begin{frame}{Continual Learning}
   \vspace{1cm}
   \begin{Definition}
     continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLM models
@@ -585,7 +659,19 @@ have the model learn sequentially based on the input stream, where it only has a
   \end{Definition}
 \end{frame}
 
-\begin{frame}{Continual learning}
+\begin{frame}{Stages of Continual Learning\cite{Wu24}}
+  \vspace{1cm}
+  \begin{itemize}
+    \item \textbf{Continual Pre-training (CPT)}: It refers to incrementally updating a large language model on input data over time without retraining it from scratch. 
+    \newline
+    \item \textbf{Continual Instruction Tuning (CIT)}: It refers to continuously refining the model's ability to follow the instruction. 
+    \newline
+    \item \textbf{Continual Alignment (CA)}: It refers to adjusting the model so it always produces output that satisfies certain standards and guidelines. 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Stages of Continual Learning}
+  \vspace{1cm}
   \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.95\textwidth]{CL stages.png}
@@ -594,25 +680,25 @@ have the model learn sequentially based on the input stream, where it only has a
   \end{figure}
 \end{frame}
 
-\begin{frame}{Continual learning}
+\begin{frame}{Continual Learning}
   \vspace{1cm}
   However, during continual learning on new input streams, models are likely to forget
   previously learned knowledge (Catastrophic Forgetting). \cite{Gupta23}
 \end{frame}
 
-\begin{frame}{Continual learning}
+\begin{frame}{Continual Learning}
   \vspace{1cm}
   However, during continual learning on new input streams, models are likely to forget
   previously learned knowledge (Catastrophic Forgetting). \cite{Gupta23}
   \vspace{1cm}
   \begin{itemize}
-    \item Replay-Based methods
-    \item Regularization-Based methods
-    \item Architecture-Based Methods
+    \item Replay-based methods
+    \item Regularization-based methods
+    \item Architecture-based Methods
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Use Case: Progressive Network}
+\begin{frame}{Use Case: Progressive Prompts}
   \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.9\textwidth]{progressive.png}
@@ -621,41 +707,50 @@ have the model learn sequentially based on the input stream, where it only has a
   \end{figure}
 \end{frame}
 
-\begin{frame}{Continual Learning}
+\begin{frame}{Challenges of Continual Learning \cite{Gupta23}, \cite{Yang24}}
+  \vspace{1cm}
   \begin{itemize}
-    \item Catastrophic forgetting.
-    \item Lack of real-world assumption.
-    \item Multi-modal continual learning.
-    \item concept drift.
+    \item Catastrophic forgetting
+    \newline
+    \item Lack of real-world assumption
+    \newline
+    \item Multi-modal continual learning
+    \newline
+    \item Concept drift
   \end{itemize}
 \end{frame}
 
 \section{Conclusion}
 \begin{frame}{}
-  Text goes here
+  \vspace{1cm}
+  \begin{itemize}
+    \item Several models such as ChatGPT and GPT4 are not open-sourced, their exact training process and architecture details remain unknown.
+    \newline
+    \item Real-world applications of the two methods are still very limited.
+    \newline
+    \item In reality, data is often irregular and multi-modal, making
+    it costly to transform into a usable format.
+    \newline
+    \item Implement more efficient algorithms to reduce the computational overhead of CA while mitigating catastrophic forgetting
+    \newline
+    \item Develop more effective prompt generation processes.
+    \newline
+    \item Explore more real-world applications.
+  \end{itemize}
 \end{frame}
 
 \section{References}
-\begin{frame}{}
-\begin{thebibliography}{}
-  \bibitem{Liu23}
-  Liu, Yiheng, Tianle Han, Siyuan Ma, Jiayue Zhang, Yuanyuan Yang, Jiaming Tian, Hao He et al. "Summary of chatgpt-related research and perspective towards the future of large language models." Meta-Radiology (2023): 100017.
 
-  \bibitem{Gupta23}
-  Gupta, Kshitij, Benjamin Thérien, Adam Ibrahim, Mats L. Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. "Continual Pre-Training of Large Language Models: How to (re) warm your model?." arXiv preprint arXiv:2308.04014 (2023).
-
-  \bibitem{Cavnar94}
-Cavnar, William B., and John M. Trenkle. "N-gram-based text categorization." In Proceedings of SDAIR-94, 3rd annual symposium on document analysis and information retrieval, vol. 161175, p. 14. 1994.
-
-\bibitem{Mikolov13}
-Mikolov, Tomas, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean. "Distributed representations of words and phrases and their compositionality." Advances in neural information processing systems 26 (2013).
-
-
-\end{thebibliography}
-\end{frame}
-
-\begin{frame}
+\begin{frame}[allowframebreaks]
   \begin{thebibliography}{}
+    \bibitem{Liu23}
+    Liu, Yiheng, Tianle Han, Siyuan Ma, Jiayue Zhang, Yuanyuan Yang, Jiaming Tian, Hao He et al. "Summary of chatgpt-related research and perspective towards the future of large language models." Meta-Radiology (2023): 100017.
+    \bibitem{Gupta23}
+    Gupta, Kshitij, Benjamin Thérien, Adam Ibrahim, Mats L. Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. "Continual Pre-Training of Large Language Models: How to (re) warm your model?." arXiv preprint arXiv:2308.04014 (2023).  
+    \bibitem{Cavnar94}
+    Cavnar, William B., and John M. Trenkle. "N-gram-based Text Categorization." In Proceedings of SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval, 161-175. Las Vegas, NV, 1994. Ann Arbor, MI: Environmental Research Institute of Michigan (ERIM).
+    \bibitem{Mikolov13}
+    Mikolov, Tomas, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean. "Distributed representations of words and phrases and their compositionality." Advances in neural information processing systems 26 (2013).
     \bibitem{Sutskever14}
 Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le. "Sequence to sequence learning with neural networks." Advances in neural information processing systems 27 (2014).
 
@@ -667,12 +762,8 @@ Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. "Bert: Pre-tr
 
 \bibitem{Wu16}
 Wu, Yonghui, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun et al. "Google's neural machine translation system: Bridging the gap between human and machine translation." arXiv preprint arXiv:1609.08144 (2016).
-  \end{thebibliography}
-\end{frame}
-
-\begin{frame}
-  \begin{thebibliography}{}
-    \bibitem{Sennrich15}
+  
+\bibitem{Sennrich15}
 Sennrich, Rico, Barry Haddow, and Alexandra Birch. "Neural machine translation of rare words with subword units." arXiv preprint arXiv:1508.07909 (2015).
 
 \bibitem{Radford18}
@@ -687,12 +778,7 @@ Shi, Haizhou, Zihao Xu, Hengyi Wang, Weiyi Qin, Wenyuan Wang, Yibin Wang, and Ha
 \bibitem{LiuPengfei23}
 Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig. "Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing." ACM Computing Surveys 55, no. 9 (2023): 1-35.
 
-  \end{thebibliography}
-\end{frame}
-
-\begin{frame}
-  \begin{thebibliography}{}
-    \bibitem{Lai23}
+\bibitem{Lai23}
 Lai, Siqi, Zhao Xu, Weijia Zhang, Hao Liu, and Hui Xiong. "Large language models as traffic signal control agents: Capacity and opportunity." arXiv preprint arXiv:2312.16044 (2023).
 
 \bibitem{Biesi20}
@@ -701,19 +787,18 @@ Biesialska, Magdalena, Katarzyna Biesialska, and Marta R. Costa-Jussa. "Continua
 \bibitem{Wu24}
 Wu, Tongtong, Linhao Luo, Yuan-Fang Li, Shirui Pan, Thuy-Trang Vu, and Gholamreza Haffari. "Continual learning for large language models: A survey." arXiv preprint arXiv:2402.01364 (2024).
 
-\bibitem{Gupta23}
-Gupta, Kshitij, Benjamin Thérien, Adam Ibrahim, Mats L. Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. "Continual Pre-Training of Large Language Models: How to (re) warm your model?." arXiv preprint arXiv:2308.04014 (2023).
-
-
-  \end{thebibliography}
-\end{frame}
-
-\begin{frame}
-  \begin{thebibliography}{}
-    \bibitem{Razda23}
+%\bibitem{Gupta23}
+%Gupta, Kshitij, Benjamin Thérien, Adam Ibrahim, Mats L. Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. "Continual Pre-Training of Large Language Models: How to (re) warm your model?." arXiv preprint arXiv:2308.04014 (2023).
+\bibitem{Razda23}
 Razdaibiedina, Anastasia, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, and Amjad Almahairi. "Progressive prompts: Continual learning for language models." arXiv preprint arXiv:2301.12314 (2023).
 
-  \end{thebibliography}
+\bibitem{Kaplan20}
+Kaplan, Jared, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. "Scaling laws for neural language models." arXiv preprint arXiv:2001.08361 (2020).
+\bibitem{Yang24}
+Yang, Yutao, Jie Zhou, Xuanwen Ding, Tianyu Huai, Shunyu Liu, Qin Chen, Liang He, and Yuan Xie. "Recent Advances of Foundation Language Models-based Continual Learning: A Survey." arXiv preprint arXiv:2405.18653 (2024).
+
+\end{thebibliography}
 \end{frame}
+
 
 \end{document}

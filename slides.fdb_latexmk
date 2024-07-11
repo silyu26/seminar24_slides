@@ -1,5 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1719319324 "c:/Users/11584/OneDrive/桌面/Seminar 24/seminar_slides/seminar24_slides/slides.tex" "slides.pdf" "slides" 1719319327
+["pdflatex"] 1720738304 "c:/Users/11584/OneDrive/桌面/Seminar 24/seminar_slides/seminar24_slides/slides.tex" "slides.pdf" "slides" 1720738308
+  "1M users.png" 1720723624 124256 d62e47ba37d9c200de846adf33101656 ""
   "BERT Finetuning.png" 1715601310 147875 49d065e2499d16a824e8932b06e42ec3 ""
   "CL stages.png" 1716072526 360646 e0bf89f9249f3d2523d18bc280fb1c11 ""
   "LLMLight.PNG" 1716279051 279903 7e52a0da09d1e8c7c6101c66cc95c273 ""
@@ -8,7 +9,7 @@
   "beamerinnerthemerwth.sty" 1650146494 4931 7628be7c981ab6c6756686ba3339b177 ""
   "beamerouterthemerwth.sty" 1650146494 3867 28cc0a8e35a15ec4d6fc180472e7c606 ""
   "beamerthemerwth.sty" 1650146494 335 49a7b4dfebd1f9723c82627070806e57 ""
-  "c:/Users/11584/OneDrive/桌面/Seminar 24/seminar_slides/seminar24_slides/slides.tex" 1719319320 25469 7cf8c9f12ae18b0e585403ec68dff255 ""
+  "c:/Users/11584/OneDrive/桌面/Seminar 24/seminar_slides/seminar24_slides/slides.tex" 1720738304 30231 d099f8bc691492ce0aefe6704037b28a ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1650145242 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1650145329 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1650145401 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -244,7 +245,6 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1650146186 4448422 53302d27d6d34c8e3e97ce3a8b4bdfa7 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1650146233 2826460 c7954e1c326f9ca8e9bd8ec08bfbd56c ""
   "c:/texlive/2022/texmf.cnf" 1650146170 713 e69b156964470283e0530f5060668171 ""
-  "comparison.png" 1719269948 66880 71c6d72a6122b272d69ce02981cea595 ""
   "llm1.png" 1719263827 726049 406b5ab33ad4714e1d585efc9b62504b ""
   "paris_traffic.png" 1719311592 822292 e1a38607f38f4d1292749b2dbb3326e9 ""
   "progressive.png" 1718717187 200755 dfc873a6d2b197e881c0b6ec98a564dd ""
@@ -252,10 +252,10 @@
   "prompt_ds_2.PNG" 1716279051 191736 1765f002b47e5a5aef9532865a4a8022 ""
   "rwth-colors.tex" 1650146494 3222 118514ed9b69249434d83ddbe7f5b729 ""
   "rwth_i5_en_rgb.pdf" 1666901618 20751 f6a2d26a7910e6b2d46079dae3b742c6 ""
-  "slides.aux" 1719319327 11971 e8d8088017a2a9cdc7af201f94c237cd "pdflatex"
-  "slides.nav" 1719319327 4703 74cc6001487251f01d5aa06b29f4d764 "pdflatex"
-  "slides.out" 1719319327 775 1285fc5ee55800c08d80e4a1fd8ada8a "pdflatex"
-  "slides.tex" 1719319320 25469 7cf8c9f12ae18b0e585403ec68dff255 ""
+  "slides.aux" 1720738307 12929 377b7d833716dbf49262a38df74efb86 "pdflatex"
+  "slides.nav" 1720738307 5074 b44c0a9180a3e201648f662a073e48f6 "pdflatex"
+  "slides.out" 1720738307 775 c9025ae7ab9e26b4a484e38fbb9da814 "pdflatex"
+  "slides.tex" 1720738304 30231 d099f8bc691492ce0aefe6704037b28a ""
   "title_small.jpg" 1650146494 120587 fdb68ea4fa3f15b435144a8ea2434351 ""
   "trends.png" 1719312069 156720 92027cb5ac5ec730e5697367fbb3e260 ""
   (generated)
