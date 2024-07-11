@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.16)  12 JUL 2024 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.16)  12 JUL 2024 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,83 +1420,90 @@ Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 699.
  [34
 
 ]
-<progressive.png, id=383, 623.32875pt x 289.08pt>
-File: progressive.png Graphic file (type png)
-<use progressive.png>
-Package pdftex.def Info: progressive.png  used on input line 708.
-(pdftex.def)             Requested size: 609.45375pt x 282.64804pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 708.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 715.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [35
 
- <./progressive.png>]
+]
+<swallow.png, id=390, 484.81125pt x 236.885pt>
+File: swallow.png Graphic file (type png)
+<use swallow.png>
+Package pdftex.def Info: swallow.png  used on input line 724.
+(pdftex.def)             Requested size: 609.45375pt x 297.82243pt.
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 721.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 724.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [36
 
-]
+ <./swallow.png>]
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 740.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 737.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
  [37
 
 ]
-Underfull \vbox (badness 10000) detected at line 801
- []
-
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 756.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
-[38
+ [38
 
- <c:/texlive/2022/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Underfull \vbox (badness 10000) detected at line 801
+]
+Underfull \vbox (badness 10000) detected at line 819
  []
 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 819.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 [39
 
-
-]
-Underfull \vbox (badness 10000) detected at line 801
+ <c:/texlive/2022/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+Underfull \vbox (badness 10000) detected at line 819
  []
 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 819.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 [40
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 801
+Underfull \vbox (badness 10000) detected at line 819
  []
 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 819.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 [41
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 801
+Underfull \vbox (badness 10000) detected at line 819
  []
 
 File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
 <use rwth_i5_en_rgb.pdf>
-Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 801.
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 819.
 (pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
 [42
+
+
+]
+Underfull \vbox (badness 10000) detected at line 819
+ []
+
+File: rwth_i5_en_rgb.pdf Graphic file (type pdf)
+<use rwth_i5_en_rgb.pdf>
+Package pdftex.def Info: rwth_i5_en_rgb.pdf  used on input line 819.
+(pdftex.def)             Requested size: 219.90727pt x 54.63051pt.
+[43
 
 
 ]
@@ -1521,18 +1528,18 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: C9025AE7AB9E26B4A484E38FBB9DA814;775.
  ) 
 Here is how much of TeX's memory you used:
- 28361 strings out of 478268
- 564096 string characters out of 5850345
- 835629 words of memory out of 5000000
- 45859 multiletter control sequences out of 15000+600000
+ 28368 strings out of 478268
+ 564150 string characters out of 5850345
+ 835662 words of memory out of 5000000
+ 45863 multiletter control sequences out of 15000+600000
  515881 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,23n,122p,486b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slides.pdf (42 pages, 2867027 bytes).
+Output written on slides.pdf (43 pages, 2819122 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

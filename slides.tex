@@ -698,11 +698,27 @@ have the model learn sequentially based on the input stream, where it only has a
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Use Case: Progressive Prompts}
+\begin{frame}{Use Case: Swallow}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Some large language models are trained on English datasets and their performance in other languages differs from their performance in English.
+    \newline
+    \item Develop a large language model Swallow that has strong performance in Japanese using continual learning methods based on LLaMA 2.
+    \newline
+    \item Swallow preserves the same architecture as LLaMA 2.
+    \newline
+    \item Apply the replay-based method by selecting 5\% of the training data from English datasets, 5\% from the English arXiv paper texts and the remaining 90\% from Japanese texts.
+    \newline
+    \item Evaluate the performance in various fields such as question answering (QA), reading com-
+    prehension (RC), automatic summarization (AS) and so on.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Use Case: Swallow}
   \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.9\textwidth]{progressive.png}
-    \caption{Illustration of progressive network and progressive prompt \cite{Razda23}}
+    \includegraphics[width=0.9\textwidth]{swallow.png}
+    \caption{Performance curve of the Swallow model in question answering task \cite{Fujii24}}
     \label{fig:progressive}
   \end{figure}
 \end{frame}
@@ -796,6 +812,8 @@ Razdaibiedina, Anastasia, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, and Am
 Kaplan, Jared, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. "Scaling laws for neural language models." arXiv preprint arXiv:2001.08361 (2020).
 \bibitem{Yang24}
 Yang, Yutao, Jie Zhou, Xuanwen Ding, Tianyu Huai, Shunyu Liu, Qin Chen, Liang He, and Yuan Xie. "Recent Advances of Foundation Language Models-based Continual Learning: A Survey." arXiv preprint arXiv:2405.18653 (2024).
+\bibitem{Fujii24}
+Fujii, Kazuki, Taishi Nakamura, Mengsay Loem, Hiroki Iida, Masanari Ohi, Kakeru Hattori, Hirai Shota, Sakae Mizuki, Rio Yokota, and Naoaki Okazaki. "Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities." arXiv preprint arXiv:2404.17790 (2024).
 
 \end{thebibliography}
 \end{frame}
