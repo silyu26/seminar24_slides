@@ -131,6 +131,7 @@
     \begin{column}{0.5\textwidth}
         \begin{itemize}
             \item LLM and AI have become very prominent topics in recent years.
+            \newline
             \item Wide usage and significant competence in QA, content generation, translation, text classification and other tasks \cite{Liu23}.
         \end{itemize}
     \end{column}
@@ -151,8 +152,10 @@
     \begin{column}{0.5\textwidth}
         \begin{itemize}
             \item LLM and AI have become very prominent topics in recent years.
+            \newline
             \item Wide usage and significant competence in QA, content generation, translation, text classification and other tasks \cite{Liu23}.
             %\item QA, content generation, translation, text classification and other tasks \cite{Liu23}.
+            \newline
             \item Most models are "static" \cite{Gupta23}.
         \end{itemize}
     \end{column}
@@ -164,7 +167,7 @@
   \begin{itemize}
     \item Evolution of language models and the techniques behind them
     \newline
-    \item Training process of several LLM models
+    \item Training process of several LLMs
     %\newline
     %\item Definition and application of data streams
     \newline
@@ -176,6 +179,7 @@
   \vspace{3cm}
   \centering
   \begin{tikzpicture}[
+    %scale=2,
     timeline/.style={
         thick,
         -{Stealth[scale=1.5]},
@@ -184,13 +188,13 @@
     event/.style={
         circle,
         draw,
-        minimum size=6mm,
+        minimum size=12mm,
         fill=blue!20,
         inner sep=0pt,
         font=\footnotesize,
     },
     label/.style={
-        font=\small,
+        font=\Large,
         anchor=south,
         text depth=0pt,
     }
@@ -200,26 +204,28 @@
     
     % Events
     \node[event, label=below:{2000}] (event1) at (2,0) {1};
-    %\node[event, label=below:{2005}] (event2) at (6,0) {2};
-    %\node[event, label=below:{2010}] (event3) at (10,0) {3};
-    %\node[event, label=below:{2015}] (event4) at (14,0) {4};
-    %\node[event, label=below:{2020}] (event5) at (18,0) {5};
     
     % Event labels
-    \node[label, above=of event1] {Statistical Models};
-    %\node[label, above=of event2] {Word Embedding};
-    %\node[label, above=of event3] {Neural Networks};
-    %\node[label, above=of event4] {LSTM};
-    %\node[label, above=of event5] {Transformers};
+    \node[label, above=of event1] {Simple Models};
+
 \end{tikzpicture}
 \vspace{1cm}
 \begin{itemize}
   \item N-Gram \cite{Cavnar94}
-  \item Example: [("I", "read"), ("read", "a"), ("a", "book")]
-  \item Completely statistical.
+  %\item Example: [("I", "read"), ("read", "a"), ("a", "book")]
+  %\item .
   \item Calculate the next word's probability based on the N-1 previous sub-words.
   \item Poor performance on large documents and large N.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{N-Gram}
+\vspace{1cm}
+Example: Tri-Gram \\
+\vspace{1cm}
+Based on a text corpus, predict the next word of "I read"\\
+\vspace{1cm}
+$P("I","read","x") = Count("I","read","x")/Count("I","read")$
 \end{frame}
 
 \begin{frame}{Large Language Models}
@@ -234,13 +240,13 @@
     event/.style={
         circle,
         draw,
-        minimum size=6mm,
+        minimum size=12mm,
         fill=blue!20,
         inner sep=0pt,
         font=\footnotesize,
     },
     label/.style={
-        font=\small,
+        font=\Large,
         anchor=south,
         text depth=0pt,
     }
@@ -249,14 +255,14 @@
     \draw[timeline] (0,0) -- (8,0);
     
     % Events
-    \node[event, label=below:{2000}] (event1) at (2,0) {1};
-    \node[event, label=below:{2005}] (event2) at (6,0) {2};
+    \node[event, label=below:{2000}] (event1) at (1,0) {1};
+    \node[event, label=below:{2005}] (event2) at (7,0) {2};
     %\node[event, label=below:{2010}] (event3) at (10,0) {3};
     %\node[event, label=below:{2015}] (event4) at (14,0) {4};
     %\node[event, label=below:{2020}] (event5) at (18,0) {5};
     
     % Event labels
-    \node[label, above=of event1] {Statistical Models};
+    \node[label, above=of event1] {Simple Models};
     \node[label, above=of event2] {Shallow Neural Networks};
     %\node[label, above=of event3] {Neural Networks};
     %\node[label, above=of event4] {LSTM};
@@ -267,8 +273,18 @@
   \item Word2Vec \cite{Mikolov13}
   \item Map words into vector space.
   \item Similar words have a closer distance.
+  \item Can capture contextual information.
   \item Better performance on large documents.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Word2Vec}
+  \vspace{1cm}
+  Example \\
+  \vspace{1cm}
+  "I read a" $\Rightarrow$ $V_{I} + V_{read} + V_a$ \\
+  \vspace{1cm}
+  Compare similarity between $V_I + V_{read} + V_a$ and $V_I + V_{read} + V_a + V_x$
 \end{frame}
 
 \begin{frame}{Large Language Models}
@@ -283,13 +299,13 @@
     event/.style={
         circle,
         draw,
-        minimum size=6mm,
+        minimum size=12mm,
         fill=blue!20,
         inner sep=0pt,
         font=\footnotesize,
     },
     label/.style={
-        font=\small,
+        font=\Large,
         anchor=south,
         text depth=0pt,
     }
@@ -298,27 +314,35 @@
     \draw[timeline] (0,0) -- (12,0);
     
     % Events
-    \node[event, label=below:{2000}] (event1) at (2,0) {1};
+    \node[event, label=below:{2000}] (event1) at (1,0) {1};
     \node[event, label=below:{2005}] (event2) at (6,0) {2};
     \node[event, label=below:{2010}] (event3) at (10,0) {3};
     %\node[event, label=below:{2015}] (event4) at (14,0) {4};
     %\node[event, label=below:{2020}] (event5) at (18,0) {5};
     
     % Event labels
-    \node[label, above=of event1] {Statistical Models};
+    \node[label, above=of event1] {Simple Models};
     \node[label, above=of event2] {Shallow Neural Networks};
-    \node[label, above=of event3] {Recurrent Neural Networks};
+    \node[label, above=of event3] {RNN};
     %\node[label, above=of event4] {LSTM};
     %\node[label, above=of event5] {Transformers};
 \end{tikzpicture}
 \vspace{1cm}
 \begin{itemize}
   \item Seq2Seq \cite{Sutskever14}
-  \item Works with Long Short-Term Memory(LSTM).
-  \item Encodes input into vectors with fixed dimensionality and decodes them.
+  \item Specially designed architecture to obtain long-term dependencies.
+  %\item Encodes input into vectors with fixed dimensionality and decodes them.
   \item Much better performance on large documents, can work with different input lengths.
-  \item But still vanishing gradient problems on very large documents.
+  \item But still problematic on very large documents.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Seq2Seq}
+  \vspace{1cm}
+  Example \\
+  \vspace{1cm}
+  "I read a book \dots" $\Rightarrow$ $\{"I"\}$ $\Rightarrow$ $\{"read"\}$ $\Rightarrow$ $\{"a"\}$ $\Rightarrow$ $\{"book"\}$
+  $\Rightarrow$ \dots \\
 \end{frame}
 
 \begin{frame}{Large Language Models}
@@ -333,13 +357,13 @@
     event/.style={
         circle,
         draw,
-        minimum size=6mm,
+        minimum size=12mm,
         fill=blue!20,
         inner sep=0pt,
         font=\footnotesize,
     },
     label/.style={
-        font=\small,
+        font=\Large,
         anchor=south,
         text depth=0pt,
     }
@@ -348,26 +372,33 @@
     \draw[timeline] (0,0) -- (16,0);
     
     % Events
-    \node[event, label=below:{2000}] (event1) at (2,0) {1};
+    \node[event, label=below:{2000}] (event1) at (1,0) {1};
     \node[event, label=below:{2005}] (event2) at (6,0) {2};
     \node[event, label=below:{2010}] (event3) at (10,0) {3};
     %\node[event, label=below:{2015}] (event4) at (14,0) {4};
     \node[event, label=below:{2020}] (event4) at (14,0) {5};
     
     % Event labels
-    \node[label, above=of event1] {Statistical Models};
+    \node[label, above=of event1] {Simple Models};
     \node[label, above=of event2] {Shallow Neural Networks};
-    \node[label, above=of event3] {Recurrent Neural Networks};
+    \node[label, above=of event3] {RNN};
     %\node[label, above=of event4] {LSTM};
     \node[label, above=of event4] {Transformers};
 \end{tikzpicture}
 \vspace{1cm}
 \begin{itemize}
   \item Transformer \cite{Vaswani17}
-  \item Works with the self-attention mechanism.
-  \item Can process the entire input sentence simultaneously with the help of positional encoding.
+  %\item Works with the self-attention mechanism.
+  \item Can process the entire input sentence simultaneously.
   \item Very good performance on large documents, more efficient and powerful.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Transformer}
+  \vspace{1cm}
+  Example \\
+  \vspace{1cm}
+  "I read a book \dots" $\Rightarrow$ $\{"I_1" "read_2" "a_3" "book_4" \dots\}$
 \end{frame}
 
 \begin{frame}{Large Language Models}
@@ -382,13 +413,13 @@
     event/.style={
         circle,
         draw,
-        minimum size=6mm,
+        minimum size=12mm,
         fill=blue!20,
         inner sep=0pt,
         font=\footnotesize,
     },
     label/.style={
-        font=\small,
+        font=\Large,
         anchor=south,
         text depth=0pt,
     }
@@ -397,16 +428,16 @@
     \draw[timeline] (0,0) -- (20,0);
     
     % Events
-    \node[event, label=below:{2000}] (event1) at (2,0) {1};
+    \node[event, label=below:{2000}] (event1) at (1,0) {1};
     \node[event, label=below:{2005}] (event2) at (6,0) {2};
     \node[event, label=below:{2010}] (event3) at (10,0) {3};
     \node[event, label=below:{2015}] (event4) at (14,0) {4};
     \node[event, label=below:{2020}] (event5) at (18,0) {5};
     
     % Event labels
-    \node[label, above=of event1] {Statistical Models};
+    \node[label, above=of event1] {Simple Models};
     \node[label, above=of event2] {Shallow Neural Networks};
-    \node[label, above=of event3] {Recurrent Neural Networks};
+    \node[label, above=of event3] {RNN};
     \node[label, above=of event4] {Transformers};
     \node[label, above=of event5] {Recent Models};
 \end{tikzpicture}
@@ -422,11 +453,11 @@
 \section{Training Process of LLMs}
 \begin{frame}{Tokenization}
   \begin{itemize}
-    \item Purpose: Segmenting input text into tokens.
+    \item Purpose: Segmenting input text into tokens, which are elements from the vocabulary that the model knows.
     \newline
-    \item WordPiece (BERT) \cite{Wu16}
+    \item BERT: "I read a book" $\Rightarrow$ ["I", "re", "\#\#ad", "a", "book"] \cite{Wu16}
     \newline
-    \item Byte Pair Encoding (GPT2, LLaMA) \cite{Sennrich15}
+    \item GPT2, LLaMA: "I read a book" $\Rightarrow$ [\dots, "re","ad",\dots] $\Rightarrow$ [\dots, "read",\dots] \cite{Sennrich15}
     %\item Sentence Piece (LLaMA)
   \end{itemize}
 \end{frame}
@@ -440,6 +471,18 @@ predict the next token $u_i$ for a sequence $\{u_{i-k},...,u_{i-1}\}$, specifica
 $k$ refers to the context window size and $\Theta$ is the parameter of the neural network with which the conditional probability $P$ is modeled.
 \end{frame}
 
+
+\begin{frame}{Example: BERT \cite{Devlin18}}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Next Sentence Prediction (Pre-training phase)
+    \begin{itemize}
+      \item BERT is trained to predict if the second sentence B (of longer sentence A, B) is real, with B being replaced by a random sentence half the time.
+      \item "I read a book", "it is amazing" or "I read a book", "The weather is bad".
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
 \begin{frame}{Fine-tuning}
   Given a labeled dataset $C$,
   where each instance of $C$ has a sequence of tokens \{$c^1,...,c^m$\} and a label $y$, the goal of the fine-tuning phase is to maximize the following likelihood:
@@ -448,13 +491,20 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
   \end{equation}
 \end{frame}
 
-\begin{frame}{BERT}
-  \begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{BERT Finetuning.png}
-    \caption{Training Process in the BERT model \cite{Devlin18}}
-    \label{fig:llm2}
-\end{figure}
+\begin{frame}{Example: BERT \cite{Devlin18}}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Next Sentence Prediction (Pre-training phase)
+    \begin{itemize}
+      \item BERT is trained to predict if the second sentence B (of longer sentence A, B) is real, with B being replaced by a random sentence half the time.
+      \item "I read a book", "it is amazing" or "I read a book", "The weather is bad".
+    \end{itemize}
+    \vspace{1cm}
+    \item Question Answering (Fine-tuning phase)
+    \begin{itemize}
+      \item Bert uses the Stanford Question Answering Dataset that contains 100k question/answer pairs.
+    \end{itemize}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{A Comparison of Different Models}
@@ -509,11 +559,8 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
     \caption{Comparison of Large Language Models}
     \label{table:comparison}
   \end{table}
-  \begin{definition}{Smooth Power Laws:}
-    Performance has a power-law relationship with each of the three scale factors: the number of model
-    parameters N, the size of dataset D and the amount of computing C when not bottlenecked by the other two,
-     with trends spanning more than six orders of magnitude \cite{Kaplan20}.
-  \end{definition}
+  The performance of a model increases exponentially when either one of the following factors are scaled up: 
+  the number of model parameters, the size of training datasets and the available computational resource \cite{Kaplan20}.
 \end{frame}
 
 \section{LLM with Data Streams}
@@ -526,16 +573,16 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
   \end{definition}
 \end{frame}
 
-\begin{frame}{Limitation of Pre-trained LLMs}
+\begin{frame}{Limitations of Pre-trained LLMs}
   \vspace{1cm}
   \begin{itemize}
     \item Lack of knowledge beyond the scope of their training datasets.
     \newline
-    \item The performance is likely to gradually degrade over time \cite{Shi24}.
+    \item The performance is likely to gradually degrade over time when finetuned on new tasks \cite{Shi24}.
     \newline
     \item Extremely computationally expensive to be re-trained.
-    \newline
-    \item Not able to process data streams as input.
+    %\newline
+    %\item Not able to process data streams as input.
   \end{itemize}
 \end{frame}
 
@@ -558,10 +605,10 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
 \end{figure}
 \end{frame}
 
-\begin{frame}{Solutions}
+\begin{frame}{Solution 1}
   \vspace{5cm}
   \centering
-  Prompt Engineering and Continual Learning
+  Prompt Engineering 
 \end{frame}
 
 %\subsection{Prompt Engineering}
@@ -615,22 +662,48 @@ $k$ refers to the context window size and $\Theta$ is the parameter of the neura
 \begin{frame}{Prompt Engineering}
   \vspace{1cm}
   \begin{itemize}
-    \item Convert the data stream input into model-readable input and update the model’s knowledge via prompt engineering.
+    \item Convert the real-time data into model-readable prompts and update the model’s knowledge via prompt engineering.
+    %\item However, this method heavily relies on the quality of the prompt formulated by users.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Prompt Engineering}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Convert the real-time data into model-readable prompts and update the model’s knowledge via prompt engineering.
+    \newline
     \item However, this method heavily relies on the quality of the prompt formulated by users.
   \end{itemize}
+\end{frame}
+
+\begin{frame}{Prompt Engineering}
+  \vspace{1cm}
+  \begin{itemize}
+    \item Convert the real-time data into model-readable prompts and update the model’s knowledge via prompt engineering.
+    \newline
+    \item However, this method heavily relies on the quality of the prompt formulated by users.
+    \newline
+    \item A domain specific LLM is needed.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Solution 2}
+  \vspace{5cm}
+  \centering
+  Continual Learning 
 \end{frame}
 
 \begin{frame}{Continual Learning}
   \vspace{1cm}
   \begin{Definition}
-    continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLM models
+    continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLMs
 to learn from a continuous data stream over time. \cite{Biesi20}
   \end{Definition}
 \end{frame}
 \begin{frame}{Continual Learning}
   \vspace{1cm}
   \begin{Definition}
-    continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLM models
+    continual learning refers to the process of accumulating knowledge on non-stationary data. In the context of large language models, continual learning is applied to enable LLMs
 to learn from a continuous data stream over time. \cite{Biesi20}
   \end{Definition}
   \vspace{1cm}
@@ -679,30 +752,30 @@ have the model learn sequentially based on the input stream, where it only has a
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Use Case: Swallow}
-  \vspace{1cm}
-  \begin{itemize}
-    \item Some large language models are trained on English datasets and their performance in other languages differs from their performance in English.
-    \newline
-    \item Develop a large language model Swallow that has strong performance in Japanese using continual learning methods based on LLaMA 2.
-    \newline
-    \item Swallow preserves the same architecture as LLaMA 2.
-    \newline
-    \item Apply the replay-based method by selecting 5\% of the training data from English datasets, 5\% from the English arXiv paper texts and the remaining 90\% from Japanese texts.
-    \newline
-    \item Evaluate the performance in various fields such as question answering (QA), reading com-
-    prehension (RC), automatic summarization (AS) and so on.
-  \end{itemize}
-\end{frame}
+%\begin{frame}{Use Case: Swallow}
+%  \vspace{1cm}
+%  \begin{itemize}
+%    \item Some large language models are trained on English datasets and their performance in other languages differs from their performance in English.
+%    \newline
+%    \item Develop a large language model Swallow that has strong performance in Japanese using continual learning methods based on LLaMA 2.
+%    \newline
+%    \item Swallow preserves the same architecture as LLaMA 2.
+%    \newline
+%    \item Apply the replay-based method by selecting 5\% of the training data from English datasets, 5\% from the English arXiv paper texts and the remaining 90\% from Japanese texts.
+%    \newline
+%    \item Evaluate the performance in various fields such as question answering (QA), reading com-
+%    prehension (RC), automatic summarization (AS) and so on.
+%  \end{itemize}
+%\end{frame}
 
-\begin{frame}{Use Case: Swallow}
-  \begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.9\textwidth]{swallow.png}
-    \caption{Performance curve of the Swallow model in question answering task \cite{Fujii24}}
-    \label{fig:progressive}
-  \end{figure}
-\end{frame}
+%\begin{frame}{Use Case: Swallow}
+%  \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[width=0.9\textwidth]{swallow.png}
+%    \caption{Performance curve of the Swallow model in question answering task \cite{Fujii24}}
+%    \label{fig:progressive}
+%  \end{figure}
+%\end{frame}
 
 \begin{frame}{Challenges of Continual Learning \cite{Gupta23}, \cite{Yang24}}
   \vspace{1cm}

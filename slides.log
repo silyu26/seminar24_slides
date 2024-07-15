@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.15)  14 JUL 2024 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.15)  15 JUL 2024 23:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -993,14 +993,14 @@ Package pdftex.def Info: logo_new.png  used on input line 119.
  <./1M users.png>]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 138.
+Package pdftex.def Info: logo_new.png  used on input line 139.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: llm1.png Graphic file (type png)
 <use llm1.png>
-Package pdftex.def Info: llm1.png  used on input line 138.
+Package pdftex.def Info: llm1.png  used on input line 139.
 (pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
 
-Overfull \hbox (45.98035pt too wide) in paragraph at lines 138--138
+Overfull \hbox (45.98035pt too wide) in paragraph at lines 139--139
 \OT1/cmtt/m/n/9 chatgpt-[]and-[]large-[]language-[]models-[]the-[]holy-[]grail-[]of-[]enterprise-[]ai/$[][]|  
  []
 
@@ -1008,25 +1008,25 @@ Overfull \hbox (45.98035pt too wide) in paragraph at lines 138--138
 pdfTeX warning (ext4): destination with the same identifier (name{fig:llm1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \end{frame}
+l.139 \end{frame}
                  
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 138.
+Package pdftex.def Info: logo_new.png  used on input line 139.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [4
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 160.
+Package pdftex.def Info: logo_new.png  used on input line 163.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: llm1.png Graphic file (type png)
 <use llm1.png>
-Package pdftex.def Info: llm1.png  used on input line 160.
+Package pdftex.def Info: llm1.png  used on input line 163.
 (pdftex.def)             Requested size: 270.86603pt x 254.7674pt.
 
-Overfull \hbox (45.98035pt too wide) in paragraph at lines 160--160
+Overfull \hbox (45.98035pt too wide) in paragraph at lines 163--163
 \OT1/cmtt/m/n/9 chatgpt-[]and-[]large-[]language-[]models-[]the-[]holy-[]grail-[]of-[]enterprise-[]ai/$[][]|  
  []
 
@@ -1034,281 +1034,335 @@ Overfull \hbox (45.98035pt too wide) in paragraph at lines 160--160
 pdfTeX warning (ext4): destination with the same identifier (name{fig:llm1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 \end{frame}
+l.163 \end{frame}
                  
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 160.
+Package pdftex.def Info: logo_new.png  used on input line 163.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [5
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 173.
+Package pdftex.def Info: logo_new.png  used on input line 176.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 173.
+Package pdftex.def Info: logo_new.png  used on input line 176.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [6
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 223.
+Package pdftex.def Info: logo_new.png  used on input line 220.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 220.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 223.
+Package pdftex.def Info: logo_new.png  used on input line 220.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [7
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 272.
+Package pdftex.def Info: logo_new.png  used on input line 229.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+LaTeX Font Info:    Calculating math sizes for size <20> on input line 229.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 229.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <13.99994> not available
+(Font)              size <14.4> substituted on input line 229.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
+(Font)              size <20.74> substituted on input line 229.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.99994> not available
+(Font)              size <14.4> substituted on input line 229.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 229.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.99994> not available
+(Font)              size <14.4> substituted on input line 229.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 12.59985pt on input line 229.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <20> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 229.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 17.99988pt on input line 229.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <13.99994> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 229.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 12.59985pt on input line 229.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 272.
+Package pdftex.def Info: logo_new.png  used on input line 229.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [8
+[8
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 322.
+Package pdftex.def Info: logo_new.png  used on input line 279.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 322.
+Package pdftex.def Info: logo_new.png  used on input line 279.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [9
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 371.
+Package pdftex.def Info: logo_new.png  used on input line 288.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 371.
+Package pdftex.def Info: logo_new.png  used on input line 288.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [10
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 420.
+Package pdftex.def Info: logo_new.png  used on input line 338.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 420.
+Package pdftex.def Info: logo_new.png  used on input line 338.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [11
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 432.
+Package pdftex.def Info: logo_new.png  used on input line 346.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 432.
+Package pdftex.def Info: logo_new.png  used on input line 346.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [12
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 441.
+Package pdftex.def Info: logo_new.png  used on input line 395.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 441.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 441.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 441.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <20> not available
-(Font)              size <20.74> substituted on input line 441.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 441.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 441.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.99994> not available
-(Font)              size <14.4> substituted on input line 441.
-
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 12.59985pt on input line 441.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <20> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 441.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 17.99988pt on input line 441.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <13.99994> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 441.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 12.59985pt on input line 441.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 441.
+Package pdftex.def Info: logo_new.png  used on input line 395.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[13
+ [13
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 449.
+Package pdftex.def Info: logo_new.png  used on input line 402.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-LaTeX Font Info:    Trying to load font information for OMS+phv on input line 449.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 402.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [14
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 451.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 451.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [15
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 463.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 463.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [16
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 472.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 472.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [17
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 484.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 14.3999pt on input line 484.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 484.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [18
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 492.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+LaTeX Font Info:    Trying to load font information for OMS+phv on input line 492.
  (d:/texlive/2024/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <20> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 449.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 492.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 449.
+(Font)              size <20.74> substituted on input line 492.
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 449.
+Package pdftex.def Info: logo_new.png  used on input line 492.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[14
+[19
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 458.
+Package pdftex.def Info: logo_new.png  used on input line 508.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<BERT Finetuning.png, id=213, 754.82pt x 305.64188pt>
-File: BERT Finetuning.png Graphic file (type png)
-<use BERT Finetuning.png>
-Package pdftex.def Info: BERT Finetuning.png  used on input line 458.
-(pdftex.def)             Requested size: 677.17543pt x 274.20302pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 458.
+Package pdftex.def Info: logo_new.png  used on input line 508.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [15
+ [20
 
- <./BERT Finetuning.png>]
+]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 485.
+Package pdftex.def Info: logo_new.png  used on input line 535.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 485.
+(Font)              scaled to size 8.99994pt on input line 535.
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 []\OT1/phv/m/n/10 Wikipedia(en)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 \OT1/phv/m/n/10 & Book-Cor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 []\OT1/phv/m/n/10 Various
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 \OT1/phv/m/n/10 open-source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 []\OT1/phv/m/n/10 Text gen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 \OT1/phv/m/n/10 er-a-tion &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
 []\OT1/phv/m/n/10 Text gen-er-a-
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 485--485
+Underfull \hbox (badness 1072) in paragraph at lines 535--535
 \OT1/phv/m/n/10 tion & QA &
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 485--485
+Underfull \hbox (badness 3471) in paragraph at lines 535--535
 []\OT1/phv/m/n/10 Content gen-
  []
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 485.
+Package pdftex.def Info: logo_new.png  used on input line 535.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[16
+[21
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 517.
+Package pdftex.def Info: logo_new.png  used on input line 564.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 []\OT1/phv/m/n/10 Wikipedia(en)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \OT1/phv/m/n/10 & Book-Cor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 []\OT1/phv/m/n/10 Various
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \OT1/phv/m/n/10 open-source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 []\OT1/phv/m/n/10 Text gen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \OT1/phv/m/n/10 er-a-tion &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 []\OT1/phv/m/n/10 Text gen-er-a-
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 517--517
+Underfull \hbox (badness 1072) in paragraph at lines 564--564
 \OT1/phv/m/n/10 tion & QA &
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 517--517
+Underfull \hbox (badness 3471) in paragraph at lines 564--564
 []\OT1/phv/m/n/10 Content gen-
  []
 
@@ -1316,201 +1370,139 @@ Underfull \hbox (badness 3471) in paragraph at lines 517--517
 pdfTeX warning (ext4): destination with the same identifier (name{table:comparison}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.517 \end{frame}
+l.564 \end{frame}
                  
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 517.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [17
-
-]
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 527.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 527.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [18
-
-]
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 540.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 540.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [19
-
-]
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 550.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<paris_traffic.png, id=274, 705.13437pt x 449.17813pt>
-File: paris_traffic.png Graphic file (type png)
-<use paris_traffic.png>
-Package pdftex.def Info: paris_traffic.png  used on input line 550.
-(pdftex.def)             Requested size: 406.30939pt x 258.82373pt.
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 550.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [20
-
- <./paris_traffic.png>]
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 559.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<trends.png, id=287, 886.81313pt x 457.71pt>
-File: trends.png Graphic file (type png)
-<use trends.png>
-Package pdftex.def Info: trends.png  used on input line 559.
-(pdftex.def)             Requested size: 474.02072pt x 244.65942pt.
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 559.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
- [21
-
- <./trends.png>]
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 565.
-(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-File: logo_new.png Graphic file (type png)
-<use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 565.
+Package pdftex.def Info: logo_new.png  used on input line 564.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [22
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 573.
+Package pdftex.def Info: logo_new.png  used on input line 574.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 573.
+Package pdftex.def Info: logo_new.png  used on input line 574.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [23
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 583.
+Package pdftex.def Info: logo_new.png  used on input line 587.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 583.
+Package pdftex.def Info: logo_new.png  used on input line 587.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [24
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 604.
+Package pdftex.def Info: logo_new.png  used on input line 597.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<prompt_ds_1.PNG, id=330, 638.76141pt x 519.44063pt>
-File: prompt_ds_1.PNG Graphic file (type png)
-<use prompt_ds_1.PNG>
-Package pdftex.def Info: prompt_ds_1.PNG  used on input line 604.
-(pdftex.def)             Requested size: 284.41243pt x 231.28113pt.
-<prompt_ds_2.PNG, id=331, 649.30078pt x 514.92375pt>
-File: prompt_ds_2.PNG Graphic file (type png)
-<use prompt_ds_2.PNG>
-Package pdftex.def Info: prompt_ds_2.PNG  used on input line 604.
-(pdftex.def)             Requested size: 284.41243pt x 225.55357pt.
+<paris_traffic.png, id=317, 705.13437pt x 449.17813pt>
+File: paris_traffic.png Graphic file (type png)
+<use paris_traffic.png>
+Package pdftex.def Info: paris_traffic.png  used on input line 597.
+(pdftex.def)             Requested size: 406.30939pt x 258.82373pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 604.
+Package pdftex.def Info: logo_new.png  used on input line 597.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [25
 
- <./prompt_ds_1.PNG> <./prompt_ds_2.PNG>]
+ <./paris_traffic.png>]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 613.
+Package pdftex.def Info: logo_new.png  used on input line 606.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<LLMLight.PNG, id=350, 590.205pt x 348.17578pt>
-File: LLMLight.PNG Graphic file (type png)
-<use LLMLight.PNG>
-Package pdftex.def Info: LLMLight.PNG  used on input line 613.
-(pdftex.def)             Requested size: 474.02072pt x 279.64072pt.
+<trends.png, id=331, 886.81313pt x 457.71pt>
+File: trends.png Graphic file (type png)
+<use trends.png>
+Package pdftex.def Info: trends.png  used on input line 606.
+(pdftex.def)             Requested size: 474.02072pt x 244.65942pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 613.
+Package pdftex.def Info: logo_new.png  used on input line 606.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [26
 
- <./LLMLight.PNG>]
+ <./trends.png>]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 621.
+Package pdftex.def Info: logo_new.png  used on input line 612.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 621.
+Package pdftex.def Info: logo_new.png  used on input line 612.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [27
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 629.
+Package pdftex.def Info: logo_new.png  used on input line 620.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 629.
+Package pdftex.def Info: logo_new.png  used on input line 620.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [28
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 641.
+Package pdftex.def Info: logo_new.png  used on input line 630.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 641.
+Package pdftex.def Info: logo_new.png  used on input line 630.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [29
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 652.
+Package pdftex.def Info: logo_new.png  used on input line 651.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 16.19989pt on input line 652.
+<prompt_ds_1.PNG, id=375, 638.76141pt x 519.44063pt>
+File: prompt_ds_1.PNG Graphic file (type png)
+<use prompt_ds_1.PNG>
+Package pdftex.def Info: prompt_ds_1.PNG  used on input line 651.
+(pdftex.def)             Requested size: 284.41243pt x 231.28113pt.
+<prompt_ds_2.PNG, id=376, 649.30078pt x 514.92375pt>
+File: prompt_ds_2.PNG Graphic file (type png)
+<use prompt_ds_2.PNG>
+Package pdftex.def Info: prompt_ds_2.PNG  used on input line 651.
+(pdftex.def)             Requested size: 284.41243pt x 225.55357pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 652.
+Package pdftex.def Info: logo_new.png  used on input line 651.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [30
 
-]
+ <./prompt_ds_1.PNG> <./prompt_ds_2.PNG>]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 662.
+Package pdftex.def Info: logo_new.png  used on input line 660.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<CL stages.png, id=406, 790.45313pt x 285.065pt>
-File: CL stages.png Graphic file (type png)
-<use CL stages.png>
-Package pdftex.def Info: CL stages.png  used on input line 662.
-(pdftex.def)             Requested size: 643.31459pt x 232.00186pt.
+<LLMLight.PNG, id=393, 590.205pt x 348.17578pt>
+File: LLMLight.PNG Graphic file (type png)
+<use LLMLight.PNG>
+Package pdftex.def Info: LLMLight.PNG  used on input line 660.
+(pdftex.def)             Requested size: 474.02072pt x 279.64072pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 662.
+Package pdftex.def Info: logo_new.png  used on input line 660.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [31
 
- <./CL stages.png>]
+ <./LLMLight.PNG>]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
 Package pdftex.def Info: logo_new.png  used on input line 668.
@@ -1524,120 +1516,188 @@ Package pdftex.def Info: logo_new.png  used on input line 668.
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 680.
+Package pdftex.def Info: logo_new.png  used on input line 677.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 680.
+Package pdftex.def Info: logo_new.png  used on input line 677.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [33
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 696.
+Package pdftex.def Info: logo_new.png  used on input line 688.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 696.
+Package pdftex.def Info: logo_new.png  used on input line 688.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [34
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 705.
+Package pdftex.def Info: logo_new.png  used on input line 694.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-<swallow.png, id=449, 484.81125pt x 236.885pt>
-File: swallow.png Graphic file (type png)
-<use swallow.png>
-Package pdftex.def Info: swallow.png  used on input line 705.
-(pdftex.def)             Requested size: 609.45375pt x 297.82243pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 705.
+Package pdftex.def Info: logo_new.png  used on input line 694.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [35
 
- <./swallow.png>]
+]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 718.
+Package pdftex.def Info: logo_new.png  used on input line 702.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 718.
+Package pdftex.def Info: logo_new.png  used on input line 702.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [36
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 737.
+Package pdftex.def Info: logo_new.png  used on input line 714.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 737.
+Package pdftex.def Info: logo_new.png  used on input line 714.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
  [37
 
 ]
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 800.
+Package pdftex.def Info: logo_new.png  used on input line 725.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 16.19989pt on input line 725.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 725.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [38
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 735.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+<CL stages.png, id=478, 790.45313pt x 285.065pt>
+File: CL stages.png Graphic file (type png)
+<use CL stages.png>
+Package pdftex.def Info: CL stages.png  used on input line 735.
+(pdftex.def)             Requested size: 643.31459pt x 232.00186pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 735.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [39
+
+ <./CL stages.png>]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 741.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 741.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [40
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 753.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 753.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [41
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 791.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 791.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [42
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 810.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 810.
+(pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
+ [43
+
+]
+File: logo_new.png Graphic file (type png)
+<use logo_new.png>
+Package pdftex.def Info: logo_new.png  used on input line 873.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
 
-Underfull \vbox (badness 10000) detected at line 800
+Underfull \vbox (badness 10000) detected at line 873
  []
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 800.
+Package pdftex.def Info: logo_new.png  used on input line 873.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[38
+[44
 
  <d:/texlive/2024/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Underfull \vbox (badness 10000) detected at line 800
+Underfull \vbox (badness 10000) detected at line 873
  []
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 800.
+Package pdftex.def Info: logo_new.png  used on input line 873.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[39
+[45
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 800
+Underfull \vbox (badness 10000) detected at line 873
  []
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 800.
+Package pdftex.def Info: logo_new.png  used on input line 873.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[40
+[46
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 800
+Underfull \vbox (badness 10000) detected at line 873
  []
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 800.
+Package pdftex.def Info: logo_new.png  used on input line 873.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[41
+[47
 
 
 ]
-Underfull \vbox (badness 10000) detected at line 800
+Underfull \vbox (badness 10000) detected at line 873
  []
 
 File: logo_new.png Graphic file (type png)
 <use logo_new.png>
-Package pdftex.def Info: logo_new.png  used on input line 800.
+Package pdftex.def Info: logo_new.png  used on input line 873.
 (pdftex.def)             Requested size: 232.80669pt x 47.61526pt.
-[42
+[48
 
 
 ]
@@ -1667,18 +1727,18 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: C9025AE7AB9E26B4A484E38FBB9DA814;775.
  ) 
 Here is how much of TeX's memory you used:
- 28355 strings out of 474103
- 558550 string characters out of 5747481
- 1950496 words of memory out of 5000000
- 50036 multiletter control sequences out of 15000+600000
- 604691 words of font info for 127 fonts, out of 8000000 for 9000
+ 28391 strings out of 474103
+ 559268 string characters out of 5747481
+ 1948496 words of memory out of 5000000
+ 50060 multiletter control sequences out of 15000+600000
+ 608211 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,23n,123p,418b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on slides.pdf (42 pages, 2867286 bytes).
+Output written on slides.pdf (48 pages, 2637241 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 429 compressed objects within 5 object streams
- 124 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

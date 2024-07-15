@@ -1,7 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1720993644.24754 "d:/seminar24_slides/seminar24_slides/slides.tex" "slides.pdf" "slides" 1720993649.42001 0
+["pdflatex"] 1721080117.1419 "d:/seminar24_slides/seminar24_slides/slides.tex" "slides.pdf" "slides" 1721080121.83874 0
   "1M users.png" 1720740001 124256 d62e47ba37d9c200de846adf33101656 ""
-  "BERT Finetuning.png" 1720387444 147875 49d065e2499d16a824e8932b06e42ec3 ""
   "CL stages.png" 1720387444 360646 e0bf89f9249f3d2523d18bc280fb1c11 ""
   "LLMLight.PNG" 1720387444 279903 7e52a0da09d1e8c7c6101c66cc95c273 ""
   "beamercolorthemerwth.sty" 1716318376 2122 93d4019ac3d2edec1ef9354a4afb9220 ""
@@ -9,7 +8,7 @@
   "beamerinnerthemerwth.sty" 1716318376 5099 7628be7c981ab6c6756686ba3339b177 ""
   "beamerouterthemerwth.sty" 1716318376 4021 28cc0a8e35a15ec4d6fc180472e7c606 ""
   "beamerthemerwth.sty" 1716318376 349 49a7b4dfebd1f9723c82627070806e57 ""
-  "d:/seminar24_slides/seminar24_slides/slides.tex" 1720993643 30625 0122a5f77decec755ccc8e1f379a73fb ""
+  "d:/seminar24_slides/seminar24_slides/slides.tex" 1721080111 32846 37c0e074e9ee0e71cfe7633afbfad68b ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1713150907 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "d:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713153319 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1713161864 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -252,11 +251,10 @@
   "prompt_ds_1.PNG" 1720387444 153115 df39bc0d6405f4114381470c7f0e0bc2 ""
   "prompt_ds_2.PNG" 1720387444 191736 1765f002b47e5a5aef9532865a4a8022 ""
   "rwth-colors.tex" 1716318376 3316 118514ed9b69249434d83ddbe7f5b729 ""
-  "slides.aux" 1720993649 12087 2c9f59614ba230c5ee114408ebbddb60 "pdflatex"
-  "slides.nav" 1720993649 5074 c3ad310cefca415154c5d1c04ca54e4d "pdflatex"
-  "slides.out" 1720993649 775 c9025ae7ab9e26b4a484e38fbb9da814 "pdflatex"
-  "slides.tex" 1720993643 30625 0122a5f77decec755ccc8e1f379a73fb ""
-  "swallow.png" 1720740001 133411 82eaf8e1c16d10c7e87fc2c18b1a2b59 ""
+  "slides.aux" 1721080121 12531 07772614f48a0508ccfdefeea63889be "pdflatex"
+  "slides.nav" 1721080121 5631 d81674218ea465e09004142cec4dbc1e "pdflatex"
+  "slides.out" 1721080121 775 c9025ae7ab9e26b4a484e38fbb9da814 "pdflatex"
+  "slides.tex" 1721080111 32846 37c0e074e9ee0e71cfe7633afbfad68b ""
   "title_small.jpg" 1716318376 120587 fdb68ea4fa3f15b435144a8ea2434351 ""
   "trends.png" 1720387445 156720 92027cb5ac5ec730e5697367fbb3e260 ""
   (generated)
